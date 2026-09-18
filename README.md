@@ -1,7 +1,17 @@
-# Relay updates
+# Relay for macOS
 
-Public download and signed update-feed channel for Relay on macOS. The application source remains private.
+[Download Relay 0.3.0 for macOS](https://github.com/justaicode/relay-updates/releases/download/v0.3.0/Relay-0.3.0-macOS.dmg) · [Release notes and all assets](https://github.com/justaicode/relay-updates/releases/tag/v0.3.0)
 
-The first installer with in-app updates is being prepared. There is no updater-enabled release available here yet. Existing Relay 0.2.0 installations need one manual upgrade to receive the updater; later versions can update inside Relay.
+Requires macOS 14 or later. Supports Intel and Apple Silicon. The app is Developer ID signed and notarized by Apple.
 
-Release assets will contain signed, notarized macOS installers. The appcast and update archives are signed using Relay's Ed25519 update key. Do not edit appcast.xml after signing.
+## Install
+
+1. Download and open **Relay-0.3.0-macOS.dmg**.
+2. Save any open Relay drafts and quit Relay if it is already running.
+3. Drag **Relay.app** into **Applications**, replacing the older version when prompted, then open it.
+4. For sync, use the same Apple Account on your Macs with iCloud Passwords & Keychain enabled.
+5. Allow Relay under **System Settings → Privacy & Security → Accessibility** for text expansion and direct paste.
+
+Your existing library and settings are preserved. Version 0.2.0 requires this manual upgrade once. Starting with 0.3.0, use **Check for Updates…** in Relay to install later versions.
+
+This repository contains public installers and the signed update feed. Application source remains private. The appcast and update archives are signed with Relay’s Ed25519 update key. Do not edit `appcast.xml` after signing.
