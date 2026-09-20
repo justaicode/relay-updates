@@ -9,6 +9,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.1</title>
+            <pubDate>Sun, 20 Sep 2026 19:11:58 +0300</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.1
+
+Find macOS settings directly from Relay's **All** search.
+
+- Search for microphone, camera, Wi-Fi, sound, displays, keyboard shortcuts, privacy permissions, and more.
+- Type **microphone** to see **Microphone permissions** and **Sound input** first. Press Return or double-click a result to open that settings page.
+- Settings results are clearly marked **System Settings** and appear alongside existing applications, files, snippets, and clipboard results.
+- Common aliases, English and Greek searches, and macOS's own setting names are supported. Relay remembers the results you choose.
+
+## Install or update
+
+If you already use Relay 0.3.0, choose **Check for Updates…** from the Relay menu.
+
+For a first installation or an upgrade from 0.2.0, download **Relay-0.3.1-macOS.dmg**, save any open Relay drafts, quit Relay, and drag **Relay.app** into **Applications**, replacing the older app. Then reopen Relay. Your library and settings are preserved.
+
+Requires macOS 14 or later, on Intel or Apple Silicon.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.1/Relay-0.3.1-macOS.zip" length="3949672" type="application/octet-stream" sparkle:edSignature="CNeBBieo5XDslRMCwybsA/Znr02jVysplTCj9SM0WisA5UeK0ptx5qrDblA6dPJ8w8w+Ygpdcffavf0M7CsYBA=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Fri, 18 Sep 2026 11:08:15 +0300</pubDate>
             <sparkle:version>5</sparkle:version>
@@ -36,6 +61,6 @@ Version 0.2.0 needs this manual upgrade once to enable in-app updates. Your exis
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: jPxAJVMFz2u2fvxe8WLIyqJrIwol9a7L9diLf7ZD4LURkQ04SMR2Uv8WCxPO5Ak7KfUS1lIUhnHwT4/L4JgrDw==
-length: 2412
+edSignature: dd9k+sOFvvsc/tR2UdwP5vaH9CBEafokEsKPud0y1ZweAAD6NYBGXc5BOwTAhb81PtkUdNdQ9Y3NFxn7wWOFBw==
+length: 4128
 -->
