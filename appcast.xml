@@ -9,6 +9,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.3</title>
+            <pubDate>Mon, 21 Sep 2026 10:24:41 +0300</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.3
+
+Relay now offers **Automatically download and install future updates** in **Library & Settings → Settings → General → Software Updates**. This option is off by default. Turn on automatic checks first, then enable the new checkbox.
+
+Sparkle verifies updates before installing them. Automatic updates normally install when Relay quits, so an open session is not interrupted. If Relay stays open for a long time or macOS requires authorization, you may be prompted to finish the update. Turning off automatic checks also turns off automatic installation.
+
+The Launch at Login option and System Settings search from earlier releases remain available.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.3/Relay-0.3.3-macOS.zip" length="3958163" type="application/octet-stream" sparkle:edSignature="qa107O0WAV77s4leo8sIbgSc7+NxV9ou7mJykkDVtVEH/B4kc3IfPscwGmTu6Y3iwHG3jG6QyGg5mOIWRiTSCw=="/>
+        </item>
+        <item>
             <title>0.3.2</title>
             <pubDate>Mon, 21 Sep 2026 10:11:11 +0300</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -47,34 +63,9 @@ Requires macOS 14 or later, on Intel or Apple Silicon.
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.1/Relay-0.3.1-macOS.zip" length="3949672" type="application/octet-stream" sparkle:edSignature="CNeBBieo5XDslRMCwybsA/Znr02jVysplTCj9SM0WisA5UeK0ptx5qrDblA6dPJ8w8w+Ygpdcffavf0M7CsYBA=="/>
         </item>
-        <item>
-            <title>0.3.0</title>
-            <pubDate>Fri, 18 Sep 2026 11:08:15 +0300</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.0
-
-Relay now checks for new versions and lets you download and install signed updates from inside the app.
-
-- An **Update Available** button appears when a newer version is available.
-- Use **Check for Updates…** from the Relay menu or **Settings → General → Software Updates**.
-- Automatic daily checks can be turned off in Settings. You choose when to download and install an update.
-- Application search now finds additional macOS utilities, including Keychain Access.
-
-## Install or upgrade
-
-Requires macOS 14 or later; supports Intel and Apple Silicon Macs.
-
-Download **Relay-0.3.0-macOS.dmg**, save any open Relay drafts, quit Relay, and drag **Relay.app** into **Applications**, replacing the older app when prompted. Open Relay from Applications.
-
-Version 0.2.0 needs this manual upgrade once to enable in-app updates. Your existing library and settings are preserved. For sync on another Mac, use the same Apple Account with iCloud Passwords & Keychain enabled. Allow Relay in **System Settings → Privacy & Security → Accessibility** for text expansion and direct paste.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.0/Relay-0.3.0-macOS.zip" length="3888681" type="application/octet-stream" sparkle:edSignature="k9HIw48Pg2g+whlKtiay0IjkEGrfIEljGazTpEpLJyUk75B3OFpjrnn5cYlMQ9bdXnzx/Ldr9EJ4MTJswcrDBw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: apCbK1GOZ/GcQFK4QcXLoIRI57rRcVbG5bFGJcFCPyA1pVeBv5D/y01A70mOsFXZ5YwLWvpKqN2XweJ+t4gUCQ==
-length: 5366
+edSignature: QY9k1ZhdU3WjblFo2knuH5l2+uoSMKOT4zxYH0Ro9+QMM4wFP8MvqPidrpoEZ/ibn7uD4jHoG5ztYYmed3uBBA==
+length: 4932
 -->
