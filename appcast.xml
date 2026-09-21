@@ -9,6 +9,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.2</title>
+            <pubDate>Mon, 21 Sep 2026 10:11:11 +0300</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.2
+
+Relay can now start automatically when you sign in to your Mac. Open **Library & Settings → Settings → General → This Mac** and turn on **Launch Relay at login**. The switch reflects the current macOS login-item setting; if macOS requires approval, Relay tells you where to finish enabling it.
+
+This release retains the settings search added in 0.3.1 and signed in-app updates. Existing 0.3.x installs can update from **Check for Updates…**; 0.2.0 installs still need one manual installation because they predate the updater.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.2/Relay-0.3.2-macOS.zip" length="3955860" type="application/octet-stream" sparkle:edSignature="m/+r5iI0NJLI4fn1kVSHRU5sUh0igj1Dr4rzV7ZHm4pVS4PeaXRcTh4NDgsyB9Gwre8wGD5gZkbUeJyF1e1NAw=="/>
+        </item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Sun, 20 Sep 2026 19:11:58 +0300</pubDate>
             <sparkle:version>6</sparkle:version>
@@ -61,6 +75,6 @@ Version 0.2.0 needs this manual upgrade once to enable in-app updates. Your exis
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: dd9k+sOFvvsc/tR2UdwP5vaH9CBEafokEsKPud0y1ZweAAD6NYBGXc5BOwTAhb81PtkUdNdQ9Y3NFxn7wWOFBw==
-length: 4128
+edSignature: apCbK1GOZ/GcQFK4QcXLoIRI57rRcVbG5bFGJcFCPyA1pVeBv5D/y01A70mOsFXZ5YwLWvpKqN2XweJ+t4gUCQ==
+length: 5366
 -->
