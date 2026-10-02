@@ -9,6 +9,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.6</title>
+            <pubDate>Fri, 02 Oct 2026 17:20:59 +0300</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.6
+
+- The search window stays open after copying files, paths, text, clipboard entries or conversions, and after opening files or folders.
+- Switching to another app keeps your search available. Bringing an already open command window back retains its query.
+- Close the window yourself with the × button, Escape, or the launcher shortcut while it is focused.
+- Brief action confirmations remain available.
+
+Requires macOS 14 or later. Universal app for Apple Silicon and Intel Macs. Update through Relay’s Check for Updates menu.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.6/Relay-0.3.6-macOS.zip" length="4007695" type="application/octet-stream" sparkle:edSignature="82d5JpZ6IcsLzkXBdbL9NYTAue1Z4md3tXN/Bt1YmJ9t18bgRvQoj61iLyOA1CZiLjUDd76uCyHVg6aePMQEBw=="/>
+        </item>
+        <item>
             <title>0.3.5</title>
             <pubDate>Fri, 02 Oct 2026 16:55:08 +0300</pubDate>
             <sparkle:version>10</sparkle:version>
@@ -47,25 +64,9 @@ The fast standard application index remains the first search path. Relay starts 
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.4/Relay-0.3.4-macOS.zip" length="3998396" type="application/octet-stream" sparkle:edSignature="2Dwiej8/JkTwxy9aQXBfDcTCfLN6Nfs0af3+NAGSNAbvP4xQZi+dMxpZ0cO/+myKtdtcofHzbJkTrNBnmdzwDA=="/>
         </item>
-        <item>
-            <title>0.3.3</title>
-            <pubDate>Mon, 21 Sep 2026 10:24:41 +0300</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.3
-
-Relay now offers **Automatically download and install future updates** in **Library & Settings → Settings → General → Software Updates**. This option is off by default. Turn on automatic checks first, then enable the new checkbox.
-
-Sparkle verifies updates before installing them. Automatic updates normally install when Relay quits, so an open session is not interrupted. If Relay stays open for a long time or macOS requires authorization, you may be prompted to finish the update. Turning off automatic checks also turns off automatic installation.
-
-The Launch at Login option and System Settings search from earlier releases remain available.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.3/Relay-0.3.3-macOS.zip" length="3958163" type="application/octet-stream" sparkle:edSignature="qa107O0WAV77s4leo8sIbgSc7+NxV9ou7mJykkDVtVEH/B4kc3IfPscwGmTu6Y3iwHG3jG6QyGg5mOIWRiTSCw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: PJH2vqe0G++ZvdeZ2B7cVH8DDlvn+oDA/b/vtW5Zl7NKbvhywg9+YAigPj58h/MfsdYpIujXTynQNwBeITrXBg==
-length: 4961
+edSignature: vMHhsNkGkaUYWAC3oGuNj4yzT0OAOHtoshbIlG2IvqrRIgZngFY9mWCuiwYEJj9drO9mP2tFIyXsYOSKcI43BQ==
+length: 4839
 -->
