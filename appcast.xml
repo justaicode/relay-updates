@@ -9,6 +9,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.7</title>
+            <pubDate>Fri, 02 Oct 2026 17:39:53 +0300</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.3.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Relay 0.3.7 improves search discovery across your Mac.
+
+- Finds indexed apps in shared folders and other local volumes automatically.
+- Continues wider app discovery even when another matching app or service is already found.
+- Shows matching apps before source files and logs in All, without duplicate app/file rows.
+- Searches filenames across indexed local volumes by default; choosing a folder keeps that search scoped.
+- Keeps the command window and current search open after actions, with brief confirmations and manual close controls.
+
+Requires macOS 14 or later. Universal installer for Apple Silicon and Intel Macs.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.7/Relay-0.3.7-macOS.zip" length="4011923" type="application/octet-stream" sparkle:edSignature="FDrF2P0gsMWP1TIwKDUZaI/eKmOWUfvjQvsorStt9997pX8xwEZSwOg0oprfO90WYiIXUep87OK8HP3ykqdHAA=="/>
+        </item>
+        <item>
             <title>0.3.6</title>
             <pubDate>Fri, 02 Oct 2026 17:20:59 +0300</pubDate>
             <sparkle:version>11</sparkle:version>
@@ -45,28 +63,9 @@ Requires macOS 14 or later. Universal app for Apple Silicon and Intel Macs. Exis
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.5/Relay-0.3.5-macOS.zip" length="4007081" type="application/octet-stream" sparkle:edSignature="qDvpfwzSSBII9U81Jz3uwfFuHM8MkiZ8NEAcZZ/vJXWD8ycKzoZ48cdik5WVZdlp6JZP+LqnyO4wLgqiwJobAw=="/>
         </item>
-        <item>
-            <title>0.3.4</title>
-            <pubDate>Fri, 02 Oct 2026 08:22:07 +0300</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.4
-
-Relay now searches beyond the standard Applications folders when an app is not found immediately.
-
-- Adds a one-time background search across additional user-accessible installation locations.
-- Publishes results progressively and caches discovered applications for later searches.
-- Shows available software updates directly in the main command window.
-- Adds Open folder for clipboard entries containing a folder path available on this Mac. Use the row button, Command-Return, or Actions; Copy remains available.
-
-The fast standard application index remains the first search path. Relay starts the broader background search only after an application-search miss.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.4/Relay-0.3.4-macOS.zip" length="3998396" type="application/octet-stream" sparkle:edSignature="2Dwiej8/JkTwxy9aQXBfDcTCfLN6Nfs0af3+NAGSNAbvP4xQZi+dMxpZ0cO/+myKtdtcofHzbJkTrNBnmdzwDA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: vMHhsNkGkaUYWAC3oGuNj4yzT0OAOHtoshbIlG2IvqrRIgZngFY9mWCuiwYEJj9drO9mP2tFIyXsYOSKcI43BQ==
-length: 4839
+edSignature: MrO52DZKnQfyJO0nxFpIGdVs96l36rR7Y28j/SDCTl5tcspSIa//PRuzD7lE/xSI2l58+mFnBhvfwQuwRQVPDA==
+length: 4785
 -->
