@@ -9,6 +9,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.8</title>
+            <pubDate>Fri, 02 Oct 2026 22:42:26 +0300</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.3.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Relay 0.3.8 improves application search and launcher actions.
+
+- Search friendly app names and aliases from installed app metadata.
+- Discover installed Epic product names automatically. Unreal Engine now appears as its own result and opens the installed editor, without adding keywords manually.
+- Put normal apps ahead of matching helper services and debug/shipping variants, while keeping technical names searchable.
+- Press Return to perform the selected primary action and close the command window. Copy file, Copy path, Copy text and Open folder buttons keep the window open for further actions.
+
+Signed and notarized universal Mac app. Requires macOS 14 or later. Existing library and preferences are preserved.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.8/Relay-0.3.8-macOS.zip" length="4062972" type="application/octet-stream" sparkle:edSignature="oGnUawsDrP4U3gReJ8Hb2COmEAA/MZjFIAhcoGA1eaIko8UxocvIIen3/y1oMQ1SNbhJqB4qm0DV7oNUmjjjCw=="/>
+        </item>
+        <item>
             <title>0.3.7</title>
             <pubDate>Fri, 02 Oct 2026 17:39:53 +0300</pubDate>
             <sparkle:version>12</sparkle:version>
@@ -43,29 +60,9 @@ Requires macOS 14 or later. Universal app for Apple Silicon and Intel Macs. Upda
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.6/Relay-0.3.6-macOS.zip" length="4007695" type="application/octet-stream" sparkle:edSignature="82d5JpZ6IcsLzkXBdbL9NYTAue1Z4md3tXN/Bt1YmJ9t18bgRvQoj61iLyOA1CZiLjUDd76uCyHVg6aePMQEBw=="/>
         </item>
-        <item>
-            <title>0.3.5</title>
-            <pubDate>Fri, 02 Oct 2026 16:55:08 +0300</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.3.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.5
-
-- Preview local text and code files directly in the command window, with selectable text.
-- Copy a file for pasting into Finder, copy its full path, or copy its text using the buttons beneath the preview or the Actions menu.
-- Open a file’s containing folder with Open folder or Command-Return. Return still opens the file itself.
-- Brief confirmations show when a file, path or text is copied, or a folder is opened.
-- Filename matches appear before clipboard copies of documents in All; remembered selections retain priority.
-
-Text previews show up to 8,000 characters. Copy text supports files up to 1 MB; larger or unsupported files can still be copied as files or opened normally. File search uses macOS’s existing Spotlight filename index.
-
-Requires macOS 14 or later. Universal app for Apple Silicon and Intel Macs. Existing 0.3.x installations can update through Relay’s Check for Updates menu.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.5/Relay-0.3.5-macOS.zip" length="4007081" type="application/octet-stream" sparkle:edSignature="qDvpfwzSSBII9U81Jz3uwfFuHM8MkiZ8NEAcZZ/vJXWD8ycKzoZ48cdik5WVZdlp6JZP+LqnyO4wLgqiwJobAw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: MrO52DZKnQfyJO0nxFpIGdVs96l36rR7Y28j/SDCTl5tcspSIa//PRuzD7lE/xSI2l58+mFnBhvfwQuwRQVPDA==
-length: 4785
+edSignature: gxbFoSp56ujT+U1xOHNPVOKi6oAEj4go2TaUXa3Ga7jm1084ry9bM9aOiTuU1kZes6qGglOCayj11bgWlkw3Ag==
+length: 4580
 -->
