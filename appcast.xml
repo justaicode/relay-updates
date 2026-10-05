@@ -9,6 +9,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.9</title>
+            <pubDate>Mon, 05 Oct 2026 10:20:44 +0300</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.3.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Relay 0.3.9 improves opening Relay on your current desktop.
+
+- The command bar, clipboard picker, library and image windows move to the desktop you are currently using when opened.
+- Opening Relay again brings up the command bar even when another Relay window exists on a different desktop.
+- Open editor dialogs and shortcut recording are preserved.
+
+Includes the friendly application and product-name search improvements from 0.3.8. Signed and notarized universal Mac app. Requires macOS 14 or later. Existing library and preferences are preserved.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.9/Relay-0.3.9-macOS.zip" length="4063082" type="application/octet-stream" sparkle:edSignature="oi3P4juQwbMjEFzs5RkYwZDTcqQaJSRqDqwxgwr7Q9wULtDtkeaKwtc0KwZGkagg5UYn4dCEqdIRjCy1AeByAQ=="/>
+        </item>
+        <item>
             <title>0.3.8</title>
             <pubDate>Fri, 02 Oct 2026 22:42:26 +0300</pubDate>
             <sparkle:version>13</sparkle:version>
@@ -43,26 +59,9 @@ Requires macOS 14 or later. Universal installer for Apple Silicon and Intel Macs
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.7/Relay-0.3.7-macOS.zip" length="4011923" type="application/octet-stream" sparkle:edSignature="FDrF2P0gsMWP1TIwKDUZaI/eKmOWUfvjQvsorStt9997pX8xwEZSwOg0oprfO90WYiIXUep87OK8HP3ykqdHAA=="/>
         </item>
-        <item>
-            <title>0.3.6</title>
-            <pubDate>Fri, 02 Oct 2026 17:20:59 +0300</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.6
-
-- The search window stays open after copying files, paths, text, clipboard entries or conversions, and after opening files or folders.
-- Switching to another app keeps your search available. Bringing an already open command window back retains its query.
-- Close the window yourself with the × button, Escape, or the launcher shortcut while it is focused.
-- Brief action confirmations remain available.
-
-Requires macOS 14 or later. Universal app for Apple Silicon and Intel Macs. Update through Relay’s Check for Updates menu.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.6/Relay-0.3.6-macOS.zip" length="4007695" type="application/octet-stream" sparkle:edSignature="82d5JpZ6IcsLzkXBdbL9NYTAue1Z4md3tXN/Bt1YmJ9t18bgRvQoj61iLyOA1CZiLjUDd76uCyHVg6aePMQEBw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: gxbFoSp56ujT+U1xOHNPVOKi6oAEj4go2TaUXa3Ga7jm1084ry9bM9aOiTuU1kZes6qGglOCayj11bgWlkw3Ag==
-length: 4580
+edSignature: 1lfssd2NPO83zgZt305N0FAKey0qX4lDxrntJ0EpSFa7ho/MR7kju8jUAkm93gCIqS7mLK2XUW5IW4nhQkynAQ==
+length: 4586
 -->
