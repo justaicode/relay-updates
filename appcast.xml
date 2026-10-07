@@ -9,6 +9,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.10</title>
+            <pubDate>Wed, 07 Oct 2026 11:39:33 +0300</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.3.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.10
+
+- Search your Contacts in All, alongside apps, settings, files and saved items.
+- Find names, nicknames, organizations, email addresses and phone numbers. Name matching ignores case/accents and supports Greek names typed in Latin characters.
+- Press Enter on a contact to open it in Contacts and close the launcher.
+- Enable access through the Enable Contacts search result or Settings → General → This Mac. Relay uses macOS permission and searches locally; it does not upload contact details.
+- Phone numbers can match contacts alongside the calculator. Explicit currency and unit conversions retain their existing behavior.
+
+For Intel and Apple Silicon Macs running macOS 14 or later. Your existing Relay library and preferences are preserved.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.10/Relay-0.3.10-macOS.zip" length="4108489" type="application/octet-stream" sparkle:edSignature="pxdlNRPKahJQmaGKeA6U8cjpxZFYIiYS7MiNgMBAjSI67AC3PftBZMZxMSgrvGYfpeanyDWIwkXPvvGQeq5rBw=="/>
+        </item>
+        <item>
             <title>0.3.9</title>
             <pubDate>Mon, 05 Oct 2026 10:20:44 +0300</pubDate>
             <sparkle:version>14</sparkle:version>
@@ -41,27 +59,9 @@ Signed and notarized universal Mac app. Requires macOS 14 or later. Existing lib
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.8/Relay-0.3.8-macOS.zip" length="4062972" type="application/octet-stream" sparkle:edSignature="oGnUawsDrP4U3gReJ8Hb2COmEAA/MZjFIAhcoGA1eaIko8UxocvIIen3/y1oMQ1SNbhJqB4qm0DV7oNUmjjjCw=="/>
         </item>
-        <item>
-            <title>0.3.7</title>
-            <pubDate>Fri, 02 Oct 2026 17:39:53 +0300</pubDate>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.3.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Relay 0.3.7 improves search discovery across your Mac.
-
-- Finds indexed apps in shared folders and other local volumes automatically.
-- Continues wider app discovery even when another matching app or service is already found.
-- Shows matching apps before source files and logs in All, without duplicate app/file rows.
-- Searches filenames across indexed local volumes by default; choosing a folder keeps that search scoped.
-- Keeps the command window and current search open after actions, with brief confirmations and manual close controls.
-
-Requires macOS 14 or later. Universal installer for Apple Silicon and Intel Macs.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.7/Relay-0.3.7-macOS.zip" length="4011923" type="application/octet-stream" sparkle:edSignature="FDrF2P0gsMWP1TIwKDUZaI/eKmOWUfvjQvsorStt9997pX8xwEZSwOg0oprfO90WYiIXUep87OK8HP3ykqdHAA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 1lfssd2NPO83zgZt305N0FAKey0qX4lDxrntJ0EpSFa7ho/MR7kju8jUAkm93gCIqS7mLK2XUW5IW4nhQkynAQ==
-length: 4586
+edSignature: oQsepdeQ/xkCFNzFcW00xzOvihvANGAqBmjGme0Yr7D4xaeiAHCp/8gAPukWo1Yb4QbNjOqCnI3+G+oTw3bvAA==
+length: 4731
 -->
