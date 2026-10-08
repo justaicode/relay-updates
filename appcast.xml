@@ -9,6 +9,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.12</title>
+            <pubDate>Thu, 08 Oct 2026 15:41:20 +0300</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.3.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Relay 0.3.12
+
+- Clipboard items you reuse now move to the top of history when copied or pasted from Relay. Existing items are updated without adding duplicates; their content, source and saved settings are kept.
+- Clipboard copying checks that the content was written before direct paste starts.
+- Settings explain how to open Clipboard & Snippets from Relay’s menu bar if a protected password field blocks the shortcut. This release does not bypass macOS Secure Input or claim to fix the unverified field-specific shortcut issue.
+
+For macOS 14 or later, Intel and Apple Silicon. Your library and existing settings are kept.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.12/Relay-0.3.12-macOS.zip" length="4111035" type="application/octet-stream" sparkle:edSignature="D64hPj6upQAL4zEzpzPn662tGwGWfNua/+nVan008wtYn3patxmhHprQTaUWlnH8Dj4Nt/RmjFKKKm2Q73IeDQ=="/>
+        </item>
+        <item>
             <title>0.3.11</title>
             <pubDate>Wed, 07 Oct 2026 11:54:42 +0300</pubDate>
             <sparkle:version>16</sparkle:version>
@@ -42,25 +58,9 @@ For Intel and Apple Silicon Macs running macOS 14 or later. Your existing Relay 
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.10/Relay-0.3.10-macOS.zip" length="4108489" type="application/octet-stream" sparkle:edSignature="pxdlNRPKahJQmaGKeA6U8cjpxZFYIiYS7MiNgMBAjSI67AC3PftBZMZxMSgrvGYfpeanyDWIwkXPvvGQeq5rBw=="/>
         </item>
-        <item>
-            <title>0.3.9</title>
-            <pubDate>Mon, 05 Oct 2026 10:20:44 +0300</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.3.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Relay 0.3.9 improves opening Relay on your current desktop.
-
-- The command bar, clipboard picker, library and image windows move to the desktop you are currently using when opened.
-- Opening Relay again brings up the command bar even when another Relay window exists on a different desktop.
-- Open editor dialogs and shortcut recording are preserved.
-
-Includes the friendly application and product-name search improvements from 0.3.8. Signed and notarized universal Mac app. Requires macOS 14 or later. Existing library and preferences are preserved.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.9/Relay-0.3.9-macOS.zip" length="4063082" type="application/octet-stream" sparkle:edSignature="oi3P4juQwbMjEFzs5RkYwZDTcqQaJSRqDqwxgwr7Q9wULtDtkeaKwtc0KwZGkagg5UYn4dCEqdIRjCy1AeByAQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: q8T5U5xWDlipIFUG7flWDsBY5uG2QHwY1NihFvGCAY4ZAXDOjqxxlJhUIKvSDR3Kri3lboX9glJ0S8JfB8OQCA==
-length: 4484
+edSignature: BjTnVifrpHUOsqcsspHSXMJfYr/MzKA5F1nqUlAHBp90PgCEbMs0KPkDYl1mlM+3BsDsxbshrEisE5wARZBsCw==
+length: 4567
 -->
