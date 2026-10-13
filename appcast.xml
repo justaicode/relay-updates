@@ -9,6 +9,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.18</title>
+            <pubDate>Tue, 13 Oct 2026 23:05:40 +0300</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.3.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.18
+
+- A compact solid background and soft shadow bring the screenshot editor together, while the bottom toolbar stays close to the image.
+- Discard closes a screenshot without saving it to Desktop or changing the clipboard. Previously saved copies are kept.
+- Copy & Close still saves to Desktop and copies the screenshot before closing.
+- The text-size popup has proper padding, a larger custom pixel-size field, evenly spaced presets, and a highlighted current size.
+
+Tool shortcuts and Shift+Enter multiline text remain available.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.18/Relay-0.3.18-macOS.zip" length="4235351" type="application/octet-stream" sparkle:edSignature="fjHtUHUCZLRWfva8JF5d02cyRi05t/xdSvVLz2aKCxBJfeW81c5OrcgHMVdMR7bo+/7dIc/UgZg6H6V9CvZ1Dw=="/>
+        </item>
+        <item>
             <title>0.3.17</title>
             <pubDate>Tue, 13 Oct 2026 21:00:36 +0300</pubDate>
             <sparkle:version>22</sparkle:version>
@@ -44,26 +61,9 @@ The native macOS area selector, pixel-size readout and Space-drag from 0.3.15 re
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.16/Relay-0.3.16-macOS.zip" length="4216300" type="application/octet-stream" sparkle:edSignature="X8Y62uOd72UnGmsk6t7P7BPsszdWXFf6X3X6CkaJE+GLXnA6XgjK5h6SaUxq7I27KKOd2lvCkzc40oTVj996Bw=="/>
         </item>
-        <item>
-            <title>0.3.15</title>
-            <pubDate>Tue, 13 Oct 2026 16:50:04 +0300</pubDate>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>0.3.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Faster, tighter screenshot capture:
-
-- Uses macOS's native crosshair selector immediately, without taking full-display snapshots first or adding Relay's screen dimming.
-- Native size readout and Space-drag to reposition the selection; Escape cancels.
-- Smaller editor padding and toolbar, with the window sized around the capture.
-- Improved text focus, repeated text entry, and placement near image edges.
-- Reuses the captured image while drawing annotations.
-- Closing still saves the annotated PNG to Desktop and copies it to the clipboard.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.15/Relay-0.3.15-macOS.zip" length="4214213" type="application/octet-stream" sparkle:edSignature="JUnuKOAoLkWevz7Rrb7O3aAdmNzZCUZmyaygIH4nvJ68LwVKMRV8JaDekWmxVnoPasa+R7/2IZUAReg8KkvAAg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: hnLAl/iBZJMwxZmNceQSfS/7skt/j3UtLTpnuGLvNSf9XE3+iQzEM6jPqWm/S4KDIjHbbntke1G+P3QRus49DA==
-length: 4684
+edSignature: UpCoFqINZLLggJy6x90bVdIG/fFBjhDA2U3vmzQ5TlWza224H50WlDXmQibbh8fo9cQgOF/03DGEnAAEzNsHDg==
+length: 4685
 -->
