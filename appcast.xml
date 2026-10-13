@@ -9,6 +9,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.16</title>
+            <pubDate>Tue, 13 Oct 2026 18:37:21 +0300</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.3.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Screenshot editor
+
+- A compact floating bottom toolbar gives more space to the image, with discreet icons and tooltips.
+- Color and size controls stay together; the size menu switches between line thickness and text size for the selected tool or mark.
+- Copy & Close is beside Copy at the top right. It copies the annotated image, saves it to Desktop, and closes the editor. Failed export keeps the image open.
+- Copy and Save continue to leave the editor open.
+
+The native macOS area selector, pixel-size readout and Space-drag from 0.3.15 remain included. This update focuses on the editor layout; further capture-smoothness improvements are still being investigated.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.16/Relay-0.3.16-macOS.zip" length="4216300" type="application/octet-stream" sparkle:edSignature="X8Y62uOd72UnGmsk6t7P7BPsszdWXFf6X3X6CkaJE+GLXnA6XgjK5h6SaUxq7I27KKOd2lvCkzc40oTVj996Bw=="/>
+        </item>
+        <item>
             <title>0.3.15</title>
             <pubDate>Tue, 13 Oct 2026 16:50:04 +0300</pubDate>
             <sparkle:version>20</sparkle:version>
@@ -40,27 +57,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.14/Relay-0.3.14-macOS.zip" length="4222032" type="application/octet-stream" sparkle:edSignature="moNhq6aiYZijrV0CFV3aD1olOyThfDM9brZZfzAstwX1M11k/ge1JS9JNh8mw9EpUjPpU4bnSYssi/csZVTDBA=="/>
         </item>
-        <item>
-            <title>0.3.13</title>
-            <pubDate>Tue, 13 Oct 2026 11:22:27 +0300</pubDate>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>0.3.13</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.13
-
-- Add a Screenshot shortcut in Settings → General. Record your own combination or choose the Command–Option–S preset. Existing shortcuts stay as configured.
-- Drag a crosshair to capture an area of a display. Escape cancels the selection.
-- Keep the screenshot open while adding arrows, freehand drawings, rectangles, and text. Move or delete marks, change colours and sizes, and undo or redo edits.
-- Copy the annotated image or save a PNG at the capture's original resolution. A brief confirmation appears, and the editor stays open until you close it.
-- Start a capture from Relay's menu-bar Screenshot option or the Take Screenshot button in Settings, even without a shortcut.
-
-macOS requires Screen Recording permission for screenshots. Enable Relay when prompted; macOS may require reopening it. Screenshot documents stay in memory until you explicitly copy or save them. Copying follows your existing clipboard-history settings.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.13/Relay-0.3.13-macOS.zip" length="4203709" type="application/octet-stream" sparkle:edSignature="RAs7Sgt36rvoHv+G3Y9uMqAztl4/W268vuL2hKM+6pmuYgXHPZMSbgXxJm9xLOZvpjbULSJC5u96ghsT8o/oAA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: lh0q/9AbfBjDppJPnsGVwGrU5XhHx4enoZeHrfwkE/Ad0ZFLYfHUjdhlMTyjdZfIhELBU/zpWjT7qdjy86MeCQ==
-length: 4598
+edSignature: CxnAJkMKM5ttUch+iOpFL9MQnjMkjXjJR1EWnmusfQTDvR8TpR91tiuNJKamHap9wgNQfF5xJZlAQQthPwTtCg==
+length: 4313
 -->
