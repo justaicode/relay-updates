@@ -9,6 +9,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.15</title>
+            <pubDate>Tue, 13 Oct 2026 16:50:04 +0300</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.3.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Faster, tighter screenshot capture:
+
+- Uses macOS's native crosshair selector immediately, without taking full-display snapshots first or adding Relay's screen dimming.
+- Native size readout and Space-drag to reposition the selection; Escape cancels.
+- Smaller editor padding and toolbar, with the window sized around the capture.
+- Improved text focus, repeated text entry, and placement near image edges.
+- Reuses the captured image while drawing annotations.
+- Closing still saves the annotated PNG to Desktop and copies it to the clipboard.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.15/Relay-0.3.15-macOS.zip" length="4214213" type="application/octet-stream" sparkle:edSignature="JUnuKOAoLkWevz7Rrb7O3aAdmNzZCUZmyaygIH4nvJ68LwVKMRV8JaDekWmxVnoPasa+R7/2IZUAReg8KkvAAg=="/>
+        </item>
+        <item>
             <title>0.3.14</title>
             <pubDate>Tue, 13 Oct 2026 15:24:33 +0300</pubDate>
             <sparkle:version>19</sparkle:version>
@@ -41,25 +58,9 @@ macOS requires Screen Recording permission for screenshots. Enable Relay when pr
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.13/Relay-0.3.13-macOS.zip" length="4203709" type="application/octet-stream" sparkle:edSignature="RAs7Sgt36rvoHv+G3Y9uMqAztl4/W268vuL2hKM+6pmuYgXHPZMSbgXxJm9xLOZvpjbULSJC5u96ghsT8o/oAA=="/>
         </item>
-        <item>
-            <title>0.3.12</title>
-            <pubDate>Thu, 08 Oct 2026 15:46:15 +0300</pubDate>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>0.3.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Relay 0.3.12
-
-- Clipboard items you reuse now move to the top of history when copied or pasted from Relay. Existing items are updated without adding duplicates; their content, source and saved settings are kept.
-- Clipboard copying checks that the content was written before direct paste starts.
-- Settings explain how to open Clipboard & Snippets from Relay’s menu bar if a protected password field blocks the shortcut. This release does not bypass macOS Secure Input or claim to fix the unverified field-specific shortcut issue.
-
-For macOS 14 or later, Intel and Apple Silicon. Your library and existing settings are kept.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.12/Relay-0.3.12-macOS.zip" length="4111035" type="application/octet-stream" sparkle:edSignature="2dPj3TygosH7PEFvfjYrIimc0L78pwYNMDOnGE6kbAVxdJXx+G5exRyjAi1Rv5gFVkbLq0UYNCCjOW8+gcg/BA=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: X3Nkc+D9sFPi2SU5+XV/aus+eL+o73XTzV+DYTU9zpkUj1tbFKjwDcDwwpPVkjIlafjZWiIGqOhovtlYt8iiBA==
-length: 4683
+edSignature: lh0q/9AbfBjDppJPnsGVwGrU5XhHx4enoZeHrfwkE/Ad0ZFLYfHUjdhlMTyjdZfIhELBU/zpWjT7qdjy86MeCQ==
+length: 4598
 -->
