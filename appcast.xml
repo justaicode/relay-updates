@@ -9,6 +9,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.13</title>
+            <pubDate>Tue, 13 Oct 2026 11:22:27 +0300</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.3.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.13
+
+- Add a Screenshot shortcut in Settings → General. Record your own combination or choose the Command–Option–S preset. Existing shortcuts stay as configured.
+- Drag a crosshair to capture an area of a display. Escape cancels the selection.
+- Keep the screenshot open while adding arrows, freehand drawings, rectangles, and text. Move or delete marks, change colours and sizes, and undo or redo edits.
+- Copy the annotated image or save a PNG at the capture's original resolution. A brief confirmation appears, and the editor stays open until you close it.
+- Start a capture from Relay's menu-bar Screenshot option or the Take Screenshot button in Settings, even without a shortcut.
+
+macOS requires Screen Recording permission for screenshots. Enable Relay when prompted; macOS may require reopening it. Screenshot documents stay in memory until you explicitly copy or save them. Copying follows your existing clipboard-history settings.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.13/Relay-0.3.13-macOS.zip" length="4203709" type="application/octet-stream" sparkle:edSignature="RAs7Sgt36rvoHv+G3Y9uMqAztl4/W268vuL2hKM+6pmuYgXHPZMSbgXxJm9xLOZvpjbULSJC5u96ghsT8o/oAA=="/>
+        </item>
+        <item>
             <title>0.3.12</title>
             <pubDate>Thu, 08 Oct 2026 15:46:15 +0300</pubDate>
             <sparkle:version>17</sparkle:version>
@@ -40,27 +58,9 @@ For Intel and Apple Silicon Macs running macOS 14 or later. Your existing Relay 
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.11/Relay-0.3.11-macOS.zip" length="4109130" type="application/octet-stream" sparkle:edSignature="vnTC2WaRbe9v2KL+UQWDR/XzEQKBDAQxzrN976x007XRo6vpjEUzYJXwJknsbfxSRlff8BzrQpHWDba0URqaAg=="/>
         </item>
-        <item>
-            <title>0.3.10</title>
-            <pubDate>Wed, 07 Oct 2026 11:39:33 +0300</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.3.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.10
-
-- Search your Contacts in All, alongside apps, settings, files and saved items.
-- Find names, nicknames, organizations, email addresses and phone numbers. Name matching ignores case/accents and supports Greek names typed in Latin characters.
-- Press Enter on a contact to open it in Contacts and close the launcher.
-- Enable access through the Enable Contacts search result or Settings → General → This Mac. Relay uses macOS permission and searches locally; it does not upload contact details.
-- Phone numbers can match contacts alongside the calculator. Explicit currency and unit conversions retain their existing behavior.
-
-For Intel and Apple Silicon Macs running macOS 14 or later. Your existing Relay library and preferences are preserved.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.10/Relay-0.3.10-macOS.zip" length="4108489" type="application/octet-stream" sparkle:edSignature="pxdlNRPKahJQmaGKeA6U8cjpxZFYIiYS7MiNgMBAjSI67AC3PftBZMZxMSgrvGYfpeanyDWIwkXPvvGQeq5rBw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: BEiJdkx00I8XqUmAuWKiBUHaEJ+N94kOqr65bKWxhINaxmiCwtm+Wm3+MUzHsoSa9/uJpx/vL0F21MEITeLYCQ==
-length: 4567
+edSignature: a/zkKB/JMiMni2xyRYyoAAYt/cqJsZnUgUvu6987QgQk33Mp5krWJyPblMwYI7fiWSDQ7SKtAlfXlXKsFi0aCg==
+length: 4759
 -->
