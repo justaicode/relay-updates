@@ -9,6 +9,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.14</title>
+            <pubDate>Tue, 13 Oct 2026 15:24:33 +0300</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.3.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[A roomier screenshot editor:
+
+- Larger markup tools, clearer selection, and separate style and undo controls.
+- The toolbar adapts to smaller windows and follows light or dark appearance.
+- Closing a screenshot saves the final annotated PNG to your Desktop and copies it to the clipboard.
+- Existing screenshots are never overwritten. If saving fails, the editor stays open so you can retry.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.14/Relay-0.3.14-macOS.zip" length="4222032" type="application/octet-stream" sparkle:edSignature="moNhq6aiYZijrV0CFV3aD1olOyThfDM9brZZfzAstwX1M11k/ge1JS9JNh8mw9EpUjPpU4bnSYssi/csZVTDBA=="/>
+        </item>
+        <item>
             <title>0.3.13</title>
             <pubDate>Tue, 13 Oct 2026 11:22:27 +0300</pubDate>
             <sparkle:version>18</sparkle:version>
@@ -42,25 +57,9 @@ For macOS 14 or later, Intel and Apple Silicon. Your library and existing settin
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.12/Relay-0.3.12-macOS.zip" length="4111035" type="application/octet-stream" sparkle:edSignature="2dPj3TygosH7PEFvfjYrIimc0L78pwYNMDOnGE6kbAVxdJXx+G5exRyjAi1Rv5gFVkbLq0UYNCCjOW8+gcg/BA=="/>
         </item>
-        <item>
-            <title>0.3.11</title>
-            <pubDate>Wed, 07 Oct 2026 11:54:42 +0300</pubDate>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>0.3.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.11
-
-- Click a Contacts search result once to open its card in Contacts and close Relay's command window.
-- Pressing Enter continues to open the selected contact. Contact results also support direct accessibility activation.
-- Contact searching, permissions and all other result actions retain their existing behavior.
-
-For Intel and Apple Silicon Macs running macOS 14 or later. Your existing Relay library, settings and Contacts permission are preserved.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.11/Relay-0.3.11-macOS.zip" length="4109130" type="application/octet-stream" sparkle:edSignature="vnTC2WaRbe9v2KL+UQWDR/XzEQKBDAQxzrN976x007XRo6vpjEUzYJXwJknsbfxSRlff8BzrQpHWDba0URqaAg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: a/zkKB/JMiMni2xyRYyoAAYt/cqJsZnUgUvu6987QgQk33Mp5krWJyPblMwYI7fiWSDQ7SKtAlfXlXKsFi0aCg==
-length: 4759
+edSignature: X3Nkc+D9sFPi2SU5+XV/aus+eL+o73XTzV+DYTU9zpkUj1tbFKjwDcDwwpPVkjIlafjZWiIGqOhovtlYt8iiBA==
+length: 4683
 -->
