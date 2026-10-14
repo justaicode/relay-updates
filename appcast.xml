@@ -9,6 +9,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.20</title>
+            <pubDate>Wed, 14 Oct 2026 12:30:48 +0300</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>0.3.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Screenshot windows that fit the image
+
+- Screenshots now open at 100% actual pixels by default.
+- The editor grows or shrinks to match the image as you change zoom.
+- Large images use the available screen space with scrolling; smaller images get a smaller window.
+- Fit shows the whole screenshot without enlarging small captures.
+- Markup, Copy & Close, Discard and full-resolution exports are retained.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.20/Relay-0.3.20-macOS.zip" length="4245894" type="application/octet-stream" sparkle:edSignature="9KO7wTgoumLOMKAOnzmY/s4HqAvwgmWW5kRsul9E2LJyY5L4DYf5/Vt7aAiYL/1cWeNznuC6ZHEahTpDyT3PAQ=="/>
+        </item>
+        <item>
             <title>0.3.19</title>
             <pubDate>Wed, 14 Oct 2026 12:13:00 +0300</pubDate>
             <sparkle:version>24</sparkle:version>
@@ -43,28 +59,9 @@ Tool shortcuts and Shift+Enter multiline text remain available.
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.18/Relay-0.3.18-macOS.zip" length="4235351" type="application/octet-stream" sparkle:edSignature="fjHtUHUCZLRWfva8JF5d02cyRi05t/xdSvVLz2aKCxBJfeW81c5OrcgHMVdMR7bo+/7dIc/UgZg6H6V9CvZ1Dw=="/>
         </item>
-        <item>
-            <title>0.3.17</title>
-            <pubDate>Tue, 13 Oct 2026 21:00:36 +0300</pubDate>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>0.3.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Floating screenshot editor
-
-- A background-free editor with soft shadows around the screenshot and floating controls.
-- The bottom toolbar stays 12 points below the image as the window changes size.
-- Tool keys: V for Move, A for Arrow, D for Draw, R for Shape, T for Text. Typing in text annotations keeps these letters as text.
-- Text sizes in exported-image pixels, with ten presets and a custom value.
-- Shift+Enter adds a new line; Enter finishes editing. Multiline text stays intact in the saved image.
-- Copy & Close saves to Desktop, copies the annotated image and closes. Copy and Save keep the editor open.
-
-Native area selection, the size readout and Space-drag remain included. Further capture-smoothness improvements are still being investigated.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.17/Relay-0.3.17-macOS.zip" length="4230986" type="application/octet-stream" sparkle:edSignature="i00fJrVQTsaSbfskg8rAG6Nf+Y63EU3h6UfU6SChuZ+YNTZX2jKeiwLiAKnQ9hWNhXP2dQXh2t69vhqBTk1yAQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: DNhPASYzuHSU8UHnjjARGGdKkQUnMAVcMiUfbLopHC1WnMv5eXokVonSfzkja713d7ZggKDpEGK5b4IsLyRFDw==
-length: 4616
+edSignature: 5CAMwWKYQnhDzXAbAWpIhDh5/S15NPnccQvjvqNidwrlyIIrFMq8cwzXN+eKVsAseVksZJIdRl3bhf7/m7sRAg==
+length: 4261
 -->
