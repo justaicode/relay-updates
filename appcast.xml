@@ -9,6 +9,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.22</title>
+            <pubDate>Thu, 15 Oct 2026 15:30:50 +0300</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>0.3.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Direct screenshot actions with icons
+
+**Copy & Discard** is now its own button beside **Copy & Close**. One click copies the annotated screenshot and closes without saving to Desktop. The dropdown has been removed.
+
+Copy, Copy & Close, Copy & Discard and Save all have icons and labels, with room to fit in the smallest window. Default 100% image sizing and zoom are retained.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.22/Relay-0.3.22-macOS.zip" length="4246514" type="application/octet-stream" sparkle:edSignature="ni/QQH1voxZKiHci54CcIo12Q2lfujSN63L3bx4y2teGjpoxVdAPbez1eAp6J06b3DpejGimLhlNp+flQ4o2Dw=="/>
+        </item>
+        <item>
             <title>0.3.21</title>
             <pubDate>Thu, 15 Oct 2026 14:53:01 +0300</pubDate>
             <sparkle:version>26</sparkle:version>
@@ -38,27 +52,9 @@ Open the small dropdown beside **Copy & Close** and choose **Copy & Discard** to
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.20/Relay-0.3.20-macOS.zip" length="4245894" type="application/octet-stream" sparkle:edSignature="9KO7wTgoumLOMKAOnzmY/s4HqAvwgmWW5kRsul9E2LJyY5L4DYf5/Vt7aAiYL/1cWeNznuC6ZHEahTpDyT3PAQ=="/>
         </item>
-        <item>
-            <title>0.3.19</title>
-            <pubDate>Wed, 14 Oct 2026 12:13:00 +0300</pubDate>
-            <sparkle:version>24</sparkle:version>
-            <sparkle:shortVersionString>0.3.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.19
-
-- Zoom into screenshots with the new Fit / percentage menu next to Discard.
-- Choose 100% for actual pixels, or enlarge up to 400% for detailed markup.
-- Scroll horizontally or vertically to reach the rest of the screenshot while the editor controls stay visible.
-- Use Command–0 for Fit, Command–1 for 100%, and Command–plus/minus to zoom in or out.
-- Zoom keeps the area you are working on centered. Annotations and exports retain their original image coordinates and resolution.
-
-The compact background, Discard, Copy & Close, tool shortcuts and multiline text remain available.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.19/Relay-0.3.19-macOS.zip" length="4243976" type="application/octet-stream" sparkle:edSignature="B9o1Fye590XRIsTwwyAOQZH7SXpfY1TReHM5Rp7DP0YZN9D5r/2hgepvcJWqV5wGsk4Z+2AiC2oqeL/4mO3RAg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: uvfI9aj3CJ66+FDKJzrsXqULlvRjmXIYZBCaVmEI7HzdnB6Dn1lkTdgaC+OPT0duOIbJJ74YVfDnw2AJffi4Dg==
-length: 4077
+edSignature: F+u37OJLChSQZUH+qehyiNINGYbw6b33WLS5jj4lqpDlEO+6rbQBoxGxBOKBIij+NWobL+Q0pFvhAZV9CyU8AA==
+length: 3853
 -->
