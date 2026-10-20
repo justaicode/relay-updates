@@ -9,6 +9,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.23</title>
+            <pubDate>Tue, 20 Oct 2026 22:19:55 +0300</pubDate>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>0.3.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Start marking up immediately
+
+The screenshot editor now opens with the freehand marker (**Draw**) selected by default, so you can start drawing immediately.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.23/Relay-0.3.23-macOS.zip" length="4246535" type="application/octet-stream" sparkle:edSignature="lkHINEDEAVTgGomyIrw1SF5Mz4xy6aEFUG/NEFpiEqV72SwrVfmIqya167GacdZLOhJarMvwSb4EDwcBX0CfDw=="/>
+        </item>
+        <item>
             <title>0.3.22</title>
             <pubDate>Thu, 15 Oct 2026 15:30:50 +0300</pubDate>
             <sparkle:version>27</sparkle:version>
@@ -36,25 +48,9 @@ Open the small dropdown beside **Copy & Close** and choose **Copy & Discard** to
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.21/Relay-0.3.21-macOS.zip" length="4246977" type="application/octet-stream" sparkle:edSignature="XOzlBjaTJKblGKVQzn3nFemkDSr13Ea62LrqnHnkrLG1DxHtdjc6Dp/ME7lxrdjZkp49Q6Jc9U3yj1GEADrCDw=="/>
         </item>
-        <item>
-            <title>0.3.20</title>
-            <pubDate>Wed, 14 Oct 2026 12:30:48 +0300</pubDate>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>0.3.20</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Screenshot windows that fit the image
-
-- Screenshots now open at 100% actual pixels by default.
-- The editor grows or shrinks to match the image as you change zoom.
-- Large images use the available screen space with scrolling; smaller images get a smaller window.
-- Fit shows the whole screenshot without enlarging small captures.
-- Markup, Copy & Close, Discard and full-resolution exports are retained.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.20/Relay-0.3.20-macOS.zip" length="4245894" type="application/octet-stream" sparkle:edSignature="9KO7wTgoumLOMKAOnzmY/s4HqAvwgmWW5kRsul9E2LJyY5L4DYf5/Vt7aAiYL/1cWeNznuC6ZHEahTpDyT3PAQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: F+u37OJLChSQZUH+qehyiNINGYbw6b33WLS5jj4lqpDlEO+6rbQBoxGxBOKBIij+NWobL+Q0pFvhAZV9CyU8AA==
-length: 3853
+edSignature: NBkcZkM4UP6gxDx3FQh9uI5Qu8wU3GiZCtXrmmvent/PST3BHSjF5UPMjuUsPjB6fuiX/izHBgcmLBXjriVJDA==
+length: 3605
 -->
