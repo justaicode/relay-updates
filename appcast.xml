@@ -9,6 +9,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.25</title>
+            <pubDate>Sat, 24 Oct 2026 18:46:10 +0300</pubDate>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>0.3.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.25
+
+- The recording toolbar stays visible while choosing a window or application.
+- Clear guidance explains macOS's Share This Window step and when to click Record.
+- Cancel or Escape restores usable controls; completing a selection shows its window/application name.
+- Recording controls remain available on the current desktop after selection.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.25/Relay-0.3.25-macOS.zip" length="4378791" type="application/octet-stream" sparkle:edSignature="Ws56zHY9wLiiS9CAAgKdwTSezy/P7uuhpWWeNWJaul2volHfP2dL7PqnKxrgWTBDKOZaiRp8hGmWE+AVVx4VAw=="/>
+        </item>
+        <item>
             <title>0.3.24</title>
             <pubDate>Sat, 24 Oct 2026 13:10:05 +0300</pubDate>
             <sparkle:version>30</sparkle:version>
@@ -37,23 +52,9 @@ The screenshot editor now opens with the freehand marker (**Draw**) selected by 
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.23/Relay-0.3.23-macOS.zip" length="4246535" type="application/octet-stream" sparkle:edSignature="lkHINEDEAVTgGomyIrw1SF5Mz4xy6aEFUG/NEFpiEqV72SwrVfmIqya167GacdZLOhJarMvwSb4EDwcBX0CfDw=="/>
         </item>
-        <item>
-            <title>0.3.22</title>
-            <pubDate>Thu, 15 Oct 2026 15:30:50 +0300</pubDate>
-            <sparkle:version>27</sparkle:version>
-            <sparkle:shortVersionString>0.3.22</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Direct screenshot actions with icons
-
-**Copy & Discard** is now its own button beside **Copy & Close**. One click copies the annotated screenshot and closes without saving to Desktop. The dropdown has been removed.
-
-Copy, Copy & Close, Copy & Discard and Save all have icons and labels, with room to fit in the smallest window. Default 100% image sizing and zoom are retained.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.22/Relay-0.3.22-macOS.zip" length="4246514" type="application/octet-stream" sparkle:edSignature="ni/QQH1voxZKiHci54CcIo12Q2lfujSN63L3bx4y2teGjpoxVdAPbez1eAp6J06b3DpejGimLhlNp+flQ4o2Dw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: WFSXsXmv95LqIWQv9YJCjumilxPE70SSHkAsQiL/JBdl/8ejvwbEk+BeecCxnpg+nnEJxwx32FFxVZQMeP/XDQ==
-length: 3767
+edSignature: bMJY6IQS/139OZ6rLZtv2DY/plh9CHF5yy6f/yk5ASSPTnSNS9W31UbAoIPL2hXLcQNjPX2eL82AS++N2NxtBg==
+length: 3745
 -->
