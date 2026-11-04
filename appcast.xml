@@ -9,6 +9,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Signed updates for Relay on macOS.</description>
         <language>en</language>
         <item>
+            <title>0.3.26</title>
+            <pubDate>Wed, 04 Nov 2026 11:51:10 +0200</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>0.3.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Relay 0.3.26
+
+- Move the search window by dragging the search icon or empty space along its header.
+- Relay remembers where you leave it, including after quitting and reopening the app.
+- Search and clipboard windows share the saved position. Changing result heights keeps the search field in place.
+- If a display is disconnected or resized, Relay brings the window back into the visible screen area.
+]]></description>
+            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.26/Relay-0.3.26-macOS.zip" length="4398641" type="application/octet-stream" sparkle:edSignature="QZ2u3nGaQR9O/WOlah3oMEXBD4Bw+PFesXlCnk5LoWXzowzpn5PvT33HvYxr6pUgUNEGHIoOk7CK0Y+ervq/Dw=="/>
+        </item>
+        <item>
             <title>0.3.25</title>
             <pubDate>Sat, 24 Oct 2026 18:46:10 +0300</pubDate>
             <sparkle:version>31</sparkle:version>
@@ -40,21 +55,9 @@ Screen recording requires macOS 15 or later. Existing screenshot and markup feat
 ]]></description>
             <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.24/Relay-0.3.24-macOS.zip" length="4376204" type="application/octet-stream" sparkle:edSignature="5CCzQ4L3sU8A6aQeeblt5IMya/mbDHRiW97pYTHRr4b8wCbt03fxjJRddm3U6Fg8TvKOvOeAy6qwUSOzIXHIAg=="/>
         </item>
-        <item>
-            <title>0.3.23</title>
-            <pubDate>Tue, 20 Oct 2026 22:19:55 +0300</pubDate>
-            <sparkle:version>28</sparkle:version>
-            <sparkle:shortVersionString>0.3.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Start marking up immediately
-
-The screenshot editor now opens with the freehand marker (**Draw**) selected by default, so you can start drawing immediately.
-]]></description>
-            <enclosure url="https://github.com/justaicode/relay-updates/releases/download/v0.3.23/Relay-0.3.23-macOS.zip" length="4246535" type="application/octet-stream" sparkle:edSignature="lkHINEDEAVTgGomyIrw1SF5Mz4xy6aEFUG/NEFpiEqV72SwrVfmIqya167GacdZLOhJarMvwSb4EDwcBX0CfDw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: bMJY6IQS/139OZ6rLZtv2DY/plh9CHF5yy6f/yk5ASSPTnSNS9W31UbAoIPL2hXLcQNjPX2eL82AS++N2NxtBg==
-length: 3745
+edSignature: ueqrDE+eZGOhQSKknUlr8kqhTf4Yzmy/ESd2q/1B9k5oP61eWKaMUyazFXglv9k2Bn0mu3/vVmMaukJEyKXLAA==
+length: 3989
 -->
